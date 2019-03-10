@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/insertClients.css'/>
+    <title><%= title %></title>
+  </head>
+  <body>   
+
+  <%- include partiels/topbar.ejs %>
+  
+        
+        <h3>Insert Clients</h3>
+        
+        <div id="forms">
+          <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Immatriculation code</label>
+            <input type="text" id="immcd" name="immcode" placeholder="Your Immatriculation Code">
+          
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+    
+
+
+
+
+  </body>
+</html>
+
+
+  
+  

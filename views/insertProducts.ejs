@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>    
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/insertProducts.css'/>
+    <title><%= title %></title>
+  </head>
+  <body>   
+
+  <%- include partiels/topbar.ejs %>
+          
+        <h3>Insert Products</h3>
+        
+        <div id="forms">
+          <form action="#">
+            <label for="fname">Product Name</label>
+            <input type="text" id="pname" name="firstname" placeholder="Product name..">
+        
+            <label for="lname">Prix</label>
+            <input type="text" id="lname" name="lastname" placeholder="Product Prix..">
+          
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+    
+
+  </body>
+</html>
+
+
+  
+  

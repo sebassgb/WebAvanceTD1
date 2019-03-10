@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+#delete {
+  width: 50%;
+  background-color: red;
+  color: white;
+  padding: 8px 10px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#delete:hover {
+  background-color: orange;
+}
